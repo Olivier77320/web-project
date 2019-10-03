@@ -16,7 +16,7 @@ public class BonjourServlet extends HttpServlet {
        
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		response.getWriter().println("Bonjour Servlet oooooooo : "+ new Date());
+		response.getWriter().println("Bonjour Servlet from github : "+ new Date());
 	}
 
 	/**
