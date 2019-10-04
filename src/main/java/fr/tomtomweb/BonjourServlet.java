@@ -17,6 +17,7 @@ public class BonjourServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		response.getWriter().println("Bonjour Servlet from github et maintenant modification dans eclispe : "+ new Date());
+		response.getWriter().println("Déployement automatique en test en changeant seulement les fichiers");
 	}
 
 	/**
